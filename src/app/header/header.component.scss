@@ -1,20 +1,20 @@
 header {
-  background-color: white; /* Arka planı beyaz yaptık */
-  width: 1500px; /* Header genişliği */
-  height: 354px; /* Header yüksekliği */
-  margin: 0 auto; /* Header'ı ortalamak için */
-  position: relative; /* İçindeki elemanları konumlandırmak için relative yaptık */
+  background-color: white; 
+  width: 1500px; 
+  height: 354px; 
+  margin: 0 auto; 
+  position: relative; 
   display: flex;
-  flex-direction: column; /* Menü ve içerikleri dikey yerleştirmek için */
-  justify-content: space-between; /* İçerikleri dikeyde yaymak için */
+  flex-direction: column; 
+  justify-content: space-between; 
 }
 
 .header-container {
   display: flex;
-  justify-content: center; /* X düzleminde ortalama */
+  justify-content: center; 
   align-items: center;
-  height: 100%; /* Container'ın yüksekliği header'a eşit */
-  position: relative; /* İçindeki elemanları konumlandırmak için */
+  height: 100%; 
+  position: relative; 
 }
 
 .social-media {
@@ -34,17 +34,17 @@ header {
 }
 
 .centered-title {
-  color: black; /* BLOG yazısını siyah yaptık */
-  font-size: 50px; /* Yazı tipi boyutu */
-  width: 700px; /* BLOG yazısının genişliği */
-  height: 200px; /* BLOG yazısının yüksekliği */
+  color: black; 
+  font-size: 70px; 
+  width: 1450px; 
+  height: 200px; 
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0; /* Margin'i sıfırladık */
+  margin: 0; 
   letter-spacing: 2px;
   font-weight: bold;
-  font-family: 'Inspiration', sans-serif; /* Fontu buraya ekledik */
+  font-family: 'Inspiration', sans-serif; 
   text-align: center;
 }
 
@@ -52,17 +52,18 @@ header {
   display: flex;
   align-items: center;
   position: absolute;
-  right: 80px; /* Arama çubuğu ve login ikonunun arasındaki boşluk */
-  top: 50%;
+  right: 80px; 
+  top: 20%;
   transform: translateY(-50%);
 }
 
 .search-bar input {
   padding: 5px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px;
   width: 200px;
   margin-right: 10px;
+  
 }
 
 .search-bar button {
@@ -80,19 +81,19 @@ header {
 
 .login-icon {
   position: absolute;
-  right: 20px; /* Login ikonunun sağda yer alması */
-  top: 50%;
+  right: 20px; 
+  top: 20%;
   transform: translateY(-50%);
 }
 
 .login-icon img {
-  width: 24px; /* İkon boyutu */
+  width: 24px; 
   height: 24px;
 }
 
 .menu-bar {
-  width: 100%; /* Menü barı genişliği */
-  margin-top: auto; /* Menü barını header'ın en altına taşımak için */
+  width: 100%; 
+  margin-top: auto; 
 }
 
 .menu {
@@ -104,11 +105,12 @@ header {
 }
 
 .menu-item {
-  margin: 0 20px;
+  margin: 0 30px; 
   text-decoration: none;
   color: black;
   font-weight: bold;
-  font-family: 'Inspiration', sans-serif; /* Menü yazı tipi */
+  font-family: 'Inknut Antiqua', serif;
+  font-size: 18px; 
 }
 
 .top-line, .bottom-line {
