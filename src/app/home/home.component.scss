@@ -1,0 +1,66 @@
+  .content {
+  min-height: calc(100vh - 100px); /* İçerik alanını en az %100 viewport yüksekliğinde yap */
+  padding-bottom: 100px; /* Footer için ekstra alan bırak */
+  box-sizing: border-box;
+  margin: 0 auto;
+  }
+
+  .image-container {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .home-image {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .image-divider {
+    width: 100%;
+    height: 1px;
+    background-color: black;
+    margin-top: 10px;
+  }
+
+  .heading-with-image {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px; 
+    width: 100%; 
+    padding: 0 20px;
+  }
+
+  .text-container {
+    max-width: 60%;
+  }
+
+  .side-image {
+    max-width: 300px;
+    height: auto;
+    margin-left: 20px;
+    border-radius: 8px;
+  }
+
+  .long-text {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    font-family: 'Inknut Antiqua', serif;
+  }
+
+  .image-heading {
+    margin-top: 10px;
+    margin-left: 20px;
+    font-size: 24px;
+    color: #000;
+    position: relative; 
+    left: 0; 
+    top: 0;  
+    white-space: nowrap; 
+    margin-right: 20px;
+  }
+  
