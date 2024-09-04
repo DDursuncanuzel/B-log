@@ -16,7 +16,9 @@
       <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn">
         <img src="assets/home/linkedin.png" alt="LinkedIn">
       </a>
-      <h1 class="centered-title">B-LOG</h1>
+    </div>
+    <div class="titlecontainer">
+      <span class="centered-title">B-LOG</span>
     </div>
   </div>
   <div class="search-bar">
@@ -31,13 +33,19 @@
   <div class="menu-bar">
     <hr class="top-line">
     <nav class="menu">
-      <a href="#" class="menu-item">Home</a>
-      <a href="#" class="menu-item">Blogs</a>
-      <a href="#" class="menu-item">Category</a>
-      <a href="#" class="menu-item">About</a>
-      <a href="#" class="menu-item">Contact Me</a>
-      <a href="#" class="menu-item">Create Blog</a>
+      <ul>
+        <li><a routerLink="/">Home</a></li>
+        <li>
+          <a routerLink="/blogs" class="menu-button">Blogs</a>
+        </li>
+        <li><a routerLink="/category">Category</a></li>
+        <li><a routerLink="/about">About</a></li>
+        <li><a routerLink="/contact">Contact Me</a></li>
+        <li><a routerLink="/create-blog">Create Blog</a></li>
+      </ul>
     </nav>
     <hr class="bottom-line">
+
+  
   </div>
 </header>
