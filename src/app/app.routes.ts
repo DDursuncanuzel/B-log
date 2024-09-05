@@ -5,6 +5,7 @@ import { BlogsComponent } from './blogs/blogs.component';
 export const routes: Routes = [
     { path: '', component: HomeComponent },
     { path: 'blogs', component: BlogsComponent },
+    { path: 'blogspage', component: BlogsComponent },
     { path: '**', redirectTo: ''},
   ];
 

@@ -1,0 +1,57 @@
+.blog-title, .new-blogs-title {
+  text-align: center;
+  margin-bottom: 20px; /* Başlık ile blog postları arasına boşluk */
+}
+
+.blog-title {
+  margin-top: 20px; /* Başlık ile üstteki alan arasına boşluk */
+}
+
+.new-blogs-title {
+  margin-top: 40px; /* Başlık ile üstteki alan arasına boşluk */
+}
+
+.blog-title h2, .new-blogs-title h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.blog-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3 sütun */
+  gap: 120px; /* Blog postları arasındaki boşluk artırıldı */
+  padding: 20px;
+  max-width: 1200px; /* Grid genişliğini sınırlama */
+  margin: 0 auto; /* Ortalamak için otomatik kenar boşlukları */
+}
+
+.blog-item {
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 8px;
+  text-align: center;
+  width: 100%; /* Yüzde 100 genişlik */
+  height: 350px; /* Sabit yükseklik */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Hafif gölge ile güzel görünüm */
+}
+
+.blog-item img {
+  width: 100%;
+  height: 200px; /* Sabit resim yüksekliği */
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.post-stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.post-stats span {
+  font-size: 14px;
+}
