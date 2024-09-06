@@ -1,5 +1,5 @@
 import { Component, NgModule, OnInit } from '@angular/core';
-import { RouterLink } from '@angular/router';
+import { RouterLink, Router } from '@angular/router';
 
 @Component({
   selector: 'app-header',
@@ -12,7 +12,12 @@ export class HeaderComponent implements OnInit  {
   
   ngOnInit(): void { }
 
-  constructor(){}
+  constructor(private router: Router){}
+
+  goToLoginPage() {
+    this.router.navigate(['/login-register']);  
+  }
+
   
   title = 'My Application';
 

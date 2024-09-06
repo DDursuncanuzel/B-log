@@ -14,7 +14,7 @@ export const routes: Routes = [
     { path: 'blogspage', component: BlogsComponent },
     { path: 'category', component: CategoryComponent },
     { path: 'categorypage', component: CategoryComponent },
-    { path: 'categorycard', component: CategoryComponent },
+    { path: 'categorycard', component: CategorypageComponent },
     { path: 'about', component: AboutComponent },
     { path: 'aboutpage', component: AboutComponent },
     { path: 'contact', component: ContactComponent },

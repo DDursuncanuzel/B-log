@@ -1,6 +1,6 @@
 header {
   background-color: white;
-  height: 354px; 
+  height: 280px; 
   margin: 0 auto; 
   position: relative; 
   display: flex;
@@ -13,7 +13,8 @@ header {
   justify-content: center; 
   align-items: center;
   height: 100%; 
-  position: relative; 
+  position: relative;
+  text-align: center;
 }
 
 .social-media a {
@@ -32,11 +33,13 @@ header {
 }
 .centered-title {
   color: black;
-  font-size: 70px; 
+  font-size: 70px;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 0; 
+  margin: 0;
+  margin-left: 100px;
+  margin-top: 70px;
   letter-spacing: 2px;
   font-weight: bold;
   font-family: 'Inspiration', sans-serif; 
@@ -64,6 +67,7 @@ header {
   background-color: #34495e;
   color: white;
   cursor: pointer;
+  margin-right: 20px;
 }
 
 .search-bar button:hover {
@@ -75,6 +79,8 @@ header {
 .login-icon img {
   width: 24px; 
   height: 24px;
+  margin-right: 20px;
+  margin-top: 20px;
 }
 
 .menu-bar {

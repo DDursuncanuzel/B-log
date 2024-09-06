@@ -4,7 +4,7 @@ import { CategorypageComponent } from "../categorypage/categorypage.component";
 @Component({
   selector: 'app-category',
   standalone: true,
-  imports: [CategorypageComponent],
+  imports: [CategorypageComponent, CategoryComponent],
   templateUrl: './category.component.html',
   styleUrl: './category.component.scss'
 })
