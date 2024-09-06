@@ -1,0 +1,20 @@
+<div class="contactpage-container">
+    <h1>Contact Us</h1>
+    <p>Welcome to the contact page. Please fill out the form below to get in touch with us.</p>
+    <form [formGroup]="contactForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" formControlName="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" formControlName="email" required>
+      </div>
+      <div class="form-group">
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" formControlName="message" required></textarea>
+      </div>
+      <button type="submit" [disabled]="isFormValid()">Send</button>
+    </form>
+  </div>
+  
