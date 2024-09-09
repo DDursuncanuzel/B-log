@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { CategorycardComponent } from "../categorycard/categorycard.component";
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-categorypage',
   standalone: true,
-  imports: [CategorycardComponent],
+  imports: [CategorycardComponent,CommonModule],
   templateUrl: './categorypage.component.html',
   styleUrl: './categorypage.component.scss'
 })
