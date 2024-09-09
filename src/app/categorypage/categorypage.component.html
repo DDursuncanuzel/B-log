@@ -5,4 +5,11 @@
       [image]="category.image">
     </app-categorycard>
 </div>
-  
+
+
+  @for (category of categories; track $index) {
+    <app-categorycard  
+    [title]="category.title" 
+    [image]="category.image">
+    </app-categorycard>
+  }

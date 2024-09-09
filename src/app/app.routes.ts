@@ -7,6 +7,7 @@ import { CategoryComponent } from './category/category.component';
 import { CategorypageComponent } from './categorypage/categorypage.component';
 import { CreateblogComponent } from './createblog/createblog.component';
 import { LoginRegisterComponent } from './login-register/login-register.component';
+import { BlogdetailsComponent } from './blogdetails/blogdetails.component';
 
 
 export const routes: Routes = [
@@ -15,6 +16,8 @@ export const routes: Routes = [
     { path: 'blogspage', component: BlogsComponent },
     { path: 'category', component: CategoryComponent },
     { path: 'categorypage', component: CategoryComponent },
+    { path: 'blogdetails', component: BlogdetailsComponent },
+    { path: 'blogdetailspage', component: BlogdetailsComponent },
     { path: 'about', component: AboutComponent },
     { path: 'aboutpage', component: AboutComponent },
     { path: 'contact', component: ContactComponent },
