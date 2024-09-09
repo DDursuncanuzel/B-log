@@ -1,64 +1,171 @@
-  .content {
-  min-height: calc(100vh - 100px); 
-  padding-bottom: 100px; 
-  box-sizing: border-box;
+.content {
+  max-width: 1200px;  
+  margin: 0 auto;     
+  padding: 20px;      
+}
+
+.image-container {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.home-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
   margin: 0 auto;
-  }
+}
 
-  .image-container {
-    text-align: center;
-    margin: 20px 0;
-  }
-  
-  .home-image {
-    max-width: 100%;
-    height: auto;
-    display: block;
-    margin: 0 auto;
-  }
+.image-divider {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-top: 10px;
+}
 
-  .image-divider {
-    width: 100%;
-    height: 1px;
-    background-color: black;
-    margin-top: 10px;
-  }
+.main-title {
+  font-size: 24px;  
+  font-family: 'Inknut Antiqua', serif;
+  margin-top: 20px;
+  text-align: center;  
+  color: #000;
+}
 
-  .heading-with-image {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%; 
-  }
+.heading-with-image {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;  
+}
 
-  .text-container {
-    max-width: 60%;
-  }
+.text-container {
+  max-width: 60%;
+}
 
-  .side-image {
-    max-width: 300px;
-    height: auto;
-    margin-right: 20px;
-    border-radius: 8px;
-  }
+.side-image {
+  max-width: 300px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 8px;
+}
 
-  .long-text {
-    font-size: 16px;
-    color: #333;
-    line-height: 1.5;
-    font-family: 'Inknut Antiqua', serif;
-    margin-left: 20px; 
-  }
+.long-text {
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+  font-family: 'Inknut Antiqua', serif;
+  margin-left: 20px;
+}
 
-  .image-heading {
-    margin-top: 10px;
-    margin-left: 20px;
-    font-size: 24px;
-    color: #000;
-    position: relative; 
-    left: 0; 
-    top: 0;  
-    white-space: nowrap; 
-    margin-right: 20px;
-  }
-  
+.image-heading {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 24px;
+  color: #000;
+  white-space: nowrap;
+  margin-right: 20px;
+}
+
+.featured-section {
+  margin-top: 60px;  
+  text-align: center;
+}
+
+.section-title {
+  font-size: 24px;
+  font-family: 'Inknut Antiqua', serif;
+  margin-bottom: 30px;
+}
+
+.section-divider {
+  width: 100%;
+  height: 1px;
+  background-color: black;
+  margin-bottom: 20px;  
+}
+
+.featured-cards {
+  display: flex;
+  justify-content: space-between;  
+  align-items: flex-start;         
+  flex-wrap: nowrap;               
+  gap: 20px;                       
+}
+
+.card {
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  transition: transform 0.3s ease;
+  width: 30%;
+  max-width: 350px;                
+  min-height: 400px;               
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.card h3 {
+  margin-top: 15px;
+  font-size: 18px;
+  font-family: 'Inknut Antiqua', serif;
+  color: #333;
+}
+
+.card p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #777;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.blog-stats {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+.blog-stats span {
+  cursor: pointer;
+}
+
+.subscribe-section {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.subscribe-form input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 300px;
+}
+
+.subscribe-form button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.subscribe-form button:hover {
+  background-color: #0056b3;
+}
