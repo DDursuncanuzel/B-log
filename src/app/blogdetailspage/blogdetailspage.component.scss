@@ -50,6 +50,8 @@
   .like-dislike {
     font-size: 18px;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
   }
 
   .blog-interactions .like-dislike {
@@ -135,4 +137,6 @@
     transform: scale(1.05); 
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
   }
+
+  
   
